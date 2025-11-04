@@ -1,0 +1,17 @@
+{
+  "name": "ChromaViews",
+  "short_name": "ChromaViews",
+  "description": "Take or upload a photo and instantly label every color in it.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+

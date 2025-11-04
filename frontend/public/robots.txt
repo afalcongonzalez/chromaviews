@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chromaviews.com/sitemap.xml
+Sitemap: https://www.chromaviews.com/sitemap.xml
+

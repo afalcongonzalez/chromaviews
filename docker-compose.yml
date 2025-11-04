@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  chromaviews:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      - ALLOWED_ORIGINS=https://chromaviews.com,https://www.chromaviews.com
+      - MAX_IMAGE_MB=10
+      - BASE_PATH=/api
+      - LOG_LEVEL=info
+    restart: unless-stopped
